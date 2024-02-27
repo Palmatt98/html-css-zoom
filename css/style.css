@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+img{
+	max-width: 100%;
+}
+.container-img{
+	width: 100%;
+	
+}
+.container{
+	background-color: black;
+}
+
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.col{
+	margin: 5px 0;
+	width: calc(100% /7);
+}
+.cont-footer{
+	height: 100px;
+	width: 100%;
+	background-color: #222222;
+	display: flex;
+
+}
+.microphone{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+	
+}
+
+.text-white{
+	color: white;
+	margin-left: 20px;
+}
